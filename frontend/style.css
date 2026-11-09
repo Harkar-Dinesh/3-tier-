@@ -1,0 +1,102 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #263238;
+}
+
+h2 {
+    color: #37474f;
+}
+
+.form-container {
+    margin-bottom: 35px;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1976d2;
+    color: white;
+    margin: 5px 2px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.cancel {
+    background: #757575;
+}
+
+.refresh {
+    background: #00897b;
+}
+
+.edit {
+    background: #f9a825;
+}
+
+.delete {
+    background: #d32f2f;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #1976d2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f5f5f5;
+}
+
+#message {
+    font-weight: bold;
+}
